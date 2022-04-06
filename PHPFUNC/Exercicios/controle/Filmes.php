@@ -21,9 +21,19 @@
  */
 
 
- function Ola(array $dur):array{
-    
-    return [
+ function Ola(){
 
-    ];
+     static $n = 1;
+      $i = 0;
+      while($i < 10){
+         $n++;
+
+         $i++;
+      }
+
+
+      echo $n;
  }
+
+
+

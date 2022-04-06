@@ -13,4 +13,5 @@ class Professor extends Usuario{
     {
         echo "<strong> {$this->GetNome()} Acabas de sair da area Professor! </stong>";
     }
+  
 }
