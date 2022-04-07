@@ -13,19 +13,19 @@ foreach($arr as $a){
 }
 */
 
-#Usando o Continue para pular a execução do Codigo
-/*foreach($arr as $a){
+#Usando o Continue para pular para a proxima iteração
+foreach($arr as $a){
     if($a == 1 or $a == 54)
         continue ;
-    echo $a,"<br>";
-}*/
+    echo $a,PHP_EOL;
+}
 
 
 
 
 #Usando o goto para pular a execução de um codigo
 #Muito fracil de USar, parece ate daquele filme Junper.
-foreach($arr as $i){
+/*foreach($arr as $i){
     if($i == 4){
         goto fun;
     }
@@ -38,4 +38,4 @@ function Testar(){
 }
 
 fun:
-Testar();
+Testar();*/

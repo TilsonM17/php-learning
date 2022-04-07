@@ -1,5 +1,7 @@
 <?php
+
 require 'Aluno.php';
+
 class Tecnico extends Aluno{
     private $registroProfessional;
 

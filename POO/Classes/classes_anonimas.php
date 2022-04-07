@@ -1,13 +1,17 @@
 <?php
+declare(strict_types = 1);
 # Claasse anonima é usada uma unica vez para criar objectos
 # É anonima porque não tem nome
-
 $a = new class{
 
-    public function Falar(){
-        echo "OLa estou a falar com voce";
+    public string $nome;
+
+    public function AlgumaCoisa(){
+        echo "Estou a fazer Algo com isso {$this->nome}";
     }
+    
 };
 
 
-$a->Falar();
+ $a->nome = '1223';
+ $a->AlgumaCoisa();

@@ -1,14 +1,15 @@
 <?php
 # Traits -> Podem ser definidos como uma estrutura que alberga
-# um conjunto de methodos que podem ser reutilizados.
-# Usado para ser uma açternativa as heranças de classes
+# um conjunto de methodose propriedades que podem ser reutilizados.
+# Usado para ser uma alternativa as heranças de classes
 # Permite o polimorfismo de Sobreposição 
 
 /**
  * Um trait para definir metodos para as views
  */
 trait View{
-
+    public $nome;
+    
     public function Renderizar(){
         echo "Estou a renderizar uma view";
     }
@@ -25,4 +26,5 @@ class Home{
 }
 
 
-(new Home)->Renderizar();
+$p = new Home;
+print_r($p);

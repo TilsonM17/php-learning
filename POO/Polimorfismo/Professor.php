@@ -1,5 +1,6 @@
 <?php
-
+#Esta classe fez a imentação do Polimorfismo sobescreveu os metodos 
+# Herdados
 require_once 'Usuario.php';
 
 class Professor extends Usuario{

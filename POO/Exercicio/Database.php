@@ -11,8 +11,8 @@ class Database{
 
     const DB_DNS= "127.0.0.1";
     const DB_NAME = "teste";
-    const DB_USER = "tilsonm17";
-    const DB_PASS = "abc123";
+    const DB_USER = "root";
+    const DB_PASS = "";
 
     private static $ligacao;
 

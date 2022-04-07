@@ -1,7 +1,7 @@
 <?php
 
 //Vamos usar o Polimorfismo de SobrePosição
-//O PHP não suporta SubreCArga de Metodos!
+//O PHP não suporta SubreCarga de Metodos!
 
 require 'Secretario.php';
 require 'Professor.php';

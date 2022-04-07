@@ -1,11 +1,12 @@
 <?php
   
+  require 'IPublicacao.php';
 
   class Livro implements IPublicacao{
-    private $titulo,$autor;
-    private $total_page,$pag_atual;
-    private $aberto;
-    private $leitor;
+    private string $titulo,$autor;
+    private int $total_page,$pag_atual;
+    private bool $aberto;
+    private Pessoa $leitor;
 
     public function __construct(string $titulo,string $autor,int $total_page,int $pag_actual,bool $aberto,Pessoa $leitor)
     {

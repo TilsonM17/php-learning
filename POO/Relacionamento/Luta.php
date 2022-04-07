@@ -1,6 +1,5 @@
 <?php
 
-require_once 'Lutador.php';
 
 class Luta{
    private $desafiado, $desafiante;

@@ -8,14 +8,23 @@
 </head>
 <body>
 <?php
-      require 'Luta.php';
-       
+    #Relacionamento por Agregação
+
+      require './Luta.php';
+      require_once './Lutador.php';
+      
+      # Criar Lutador
+    $l[0] = new Lutador("Edu Bernardo",'Senegalense',67,123,1.5,0,10,3);
+    $l[1] = new Lutador("Tilson Lucas",'Angolana',25,13,3.5,10,0,0);
+
        $t = new Luta();
-       print_r($t);
+       $t->SetDesafiado($l[0]);
+       $t->SetDesafiante($l[1]);
+       $t->GetDesafiado()->GanharLuta();
+       
 
        echo "<hr>";
         
-      // echo str_starts_with("alura","a");
     ?>
 
 

@@ -1,7 +1,7 @@
 <?php
 #Quanto a escopo temos,global e Local.
 #O escopo Global é aquele que começa desde onde a variavel foi definida
-#Ate onde o Doc termina
+#Ate onde o Documento termina
 
 
 #O escopo Local é inerente a uma função.
@@ -16,5 +16,5 @@ function Calcular(){
 
 Calcular();
 
-echo $valor,"<br>";
+echo $valor,PHP_EOL;
 
