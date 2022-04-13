@@ -1,0 +1,12 @@
+{
+    "name": "tilsonm17/teste",
+    "description": "Um teste da psr4 do composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TilsonM17\\Teste\\": "src/"
+        }
+    },
+    "require": {}
+}
